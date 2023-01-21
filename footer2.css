@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.our-company1,
+.we-love1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 413.67px);
+  letter-spacing: -2.2px;
+  line-height: 80px;
+}
+.our-company1 {
+  left: calc(50% - 102px);
+  font-size: var(--font-size-17xl);
+}
+.span2 {
+  position: relative;
+  width: 1134px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.a7,
+.div76 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div76 {
+  border-top: 1px solid var(--color-gray-2300);
+  border-bottom: 1px solid var(--color-gray-2300);
+  padding: var(--padding-5xl) 0 var(--padding-3xl);
+}
+.a7 {
+  padding: 0 var(--padding-11xl);
+}
+.div79 {
+  position: relative;
+  width: 567px;
+  height: 375px;
+  flex-shrink: 0;
+}
+.about3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-2xs);
+  line-height: 30px;
+}
+.careers3,
+.div80,
+.google-map1,
+.projects5,
+.team3 {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  line-height: 30px;
+  cursor: pointer;
+}
+.careers3,
+.google-map1,
+.projects5,
+.team3 {
+  top: 101px;
+}
+.google-map1,
+.projects5,
+.team3 {
+  top: 128px;
+  display: flex;
+  align-items: center;
+  width: 42px;
+  height: 30px;
+}
+.google-map1,
+.projects5 {
+  top: 156px;
+  width: 62px;
+}
+.google-map1 {
+  top: 186px;
+  font-size: var(--font-size-2xs);
+  width: 98px;
+}
+.ul2 {
+  position: relative;
+  width: 377.95px;
+  height: 370px;
+  flex-shrink: 0;
+}
+.hiwemakeartistcom1,
+.lets-talk3 {
+  position: absolute;
+  left: 0;
+  line-height: 30px;
+}
+.lets-talk3 {
+  top: 0;
+  cursor: pointer;
+}
+.hiwemakeartistcom1 {
+  top: 51px;
+  font-size: var(--font-size-2xs);
+}
+.instagram1 {
+  top: 90px;
+  left: 0.05px;
+  cursor: pointer;
+}
+.facebook1,
+.instagram1,
+.twitter1,
+.youtube1 {
+  position: absolute;
+  line-height: 30px;
+}
+.facebook1 {
+  top: 120px;
+  left: 0.05px;
+}
+.twitter1,
+.youtube1 {
+  left: 0.09px;
+}
+.youtube1 {
+  top: 150px;
+  font-size: var(--font-size-2xs);
+  cursor: pointer;
+}
+.twitter1 {
+  top: 180px;
+}
+.span3 {
+  color: var(--color-gray-1500);
+}
+.cookies-privacy-container1 {
+  position: absolute;
+  top: 210px;
+  left: 0.09px;
+  line-height: 30px;
+}
+.ul3 {
+  position: relative;
+  width: 188.92px;
+  height: 370px;
+  flex-shrink: 0;
+}
+.div78,
+.we-make-artist1 {
+  position: absolute;
+  left: 0;
+  display: flex;
+}
+.div78 {
+  top: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-18xs) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.we-make-artist1 {
+  top: 25px;
+  line-height: 24px;
+  align-items: center;
+  width: 278.7px;
+  height: 16px;
+}
+.div81 {
+  position: absolute;
+  width: 100%;
+  top: 357px;
+  right: 0;
+  left: 0;
+  border-top: 1px solid var(--color-gray-2300);
+  box-sizing: border-box;
+  height: 45px;
+  font-size: var(--font-size-6xs);
+  color: var(--color-gray-1500);
+}
+.logo-copy-41 {
+  position: absolute;
+  top: -85px;
+  left: -62px;
+  width: 455px;
+  height: 455px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.div77,
+.footer1 {
+  position: relative;
+}
+.div77 {
+  width: 1134px;
+  height: 540px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--paragraph-size);
+}
+.footer1 {
+  background-color: var(--color-black);
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-6xl);
+  text-align: center;
+  font-size: var(--font-size-20xl);
+  color: var(--white);
+  font-family: var(--font-inter);
+}

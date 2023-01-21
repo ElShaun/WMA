@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.menu-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1024px;
+}
+.lets-talk2 {
+  margin: 0;
+  padding-left: var(--padding-8xl);
+}
+.about1,
+.lets-talk1 {
+  position: absolute;
+  top: 742px;
+  left: 86px;
+  letter-spacing: 0.24em;
+  line-height: 149%;
+  display: inline-block;
+  width: 641px;
+  height: 89px;
+  cursor: pointer;
+}
+.about1 {
+  top: 218px;
+  width: 1147px;
+  height: 81px;
+}
+.projects3 {
+  top: 326px;
+  height: 91px;
+}
+.careers1,
+.projects3,
+.team1 {
+  position: absolute;
+  left: 86px;
+  letter-spacing: 0.24em;
+  line-height: 149%;
+  display: inline-block;
+  width: 1147px;
+  cursor: pointer;
+}
+.team1 {
+  top: 425px;
+  font-weight: 500;
+  height: 93px;
+}
+.careers1 {
+  top: 640px;
+  height: 89px;
+}
+.group-inner,
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 8.88px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-green-200);
+  width: 77.48px;
+  height: 10.81px;
+  transform: rotate(48.02deg);
+  transform-origin: 0 0;
+}
+.rectangle-div {
+  top: 58.13px;
+  left: 0;
+  width: 76.81px;
+  height: 10.9px;
+  transform: rotate(-48.69deg);
+}
+.rectangle-group {
+  top: 52.56px;
+  left: 1315.59px;
+  width: 60.71px;
+  height: 64.44px;
+}
+.clients,
+.logo-copy-31,
+.rectangle-group {
+  position: absolute;
+  cursor: pointer;
+}
+.logo-copy-31 {
+  top: 0;
+  left: 30px;
+  width: 290px;
+  height: 275px;
+  object-fit: cover;
+}
+.clients {
+  top: 531px;
+  left: 85px;
+  letter-spacing: 0.24em;
+  line-height: 149%;
+  display: inline-block;
+  width: 1147px;
+  height: 100px;
+}
+.menu {
+  position: relative;
+  background-color: var(--color-gray-2500);
+  width: 1440px;
+  height: 1024px;
+  overflow: auto;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-inherit);
+  color: var(--white);
+  font-family: var(--font-inherit);
+}

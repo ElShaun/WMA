@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./menu1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,700;0,800;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin Sans:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kenia:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    />
+    <style>
+      @font-face {
+        font-family: "Helvetica";
+        src: url("public/Helvetica-Bold-Font.ttf");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "Segoe UI";
+        src: url("public/segoe-ui.ttf");
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu1">
+      <img class="menu-item" alt="" src="public/rectangle-3.svg" />
+      <div class="about13">
+        <ul class="about14">
+          ABOUT
+        </ul>
+      </div>
+      <div class="projects14">
+        <ul class="about14">
+          PROJECTS
+        </ul>
+      </div>
+      <div class="team11">
+        <ul class="about14">
+          TEAM
+        </ul>
+      </div>
+      <div class="clients4">
+        <ul class="about14">
+          CLIENTS
+        </ul>
+      </div>
+      <div class="careers10">
+        <ul class="about14">
+          CAREERS
+        </ul>
+      </div>
+      <div class="wma3">WMA</div>
+      <div class="rectangle-parent12" id="groupContainer">
+        <div class="group-child34"></div>
+        <div class="group-child35"></div>
+      </div>
+    </div>
+
+    <script>
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./main-page1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
